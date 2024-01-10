@@ -68,7 +68,7 @@ header nav ul li a:hover {
 /* ----------------index page------------------ */
 /* section 1 */
 .banner {
-    background-image: url(/image/ban.jpg);
+    background-image: url('../image/ban.jpg');
     background-size: cover;
     background-position: center;
     padding: 120px 80px;
