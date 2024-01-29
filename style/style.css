@@ -160,6 +160,7 @@ header nav a:hover {
 
 }
 
+
 .service-sec h2 span {
     font-size: 40px;
 }
@@ -271,25 +272,10 @@ header nav a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
 
-.footer-sec2 .footer-nav ul {
-    display: flex;
-    padding-left: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
 
-}
-
-.footer-sec2 .footer-nav ul li a {
-    color: #000000;
-    padding-left: 20px;
-    font-weight: 400;
-}
-
-.footer-sec2 .footer-nav ul li a:hover {
-    font-weight: 500;
-}
 
 /* responsive */
 /* laptop */
@@ -838,5 +824,48 @@ header nav a:hover {
         text-align: center;
         padding-top: 30px;
     }
+    /* footer */
+.footer-sec1 {
+    padding: 60px 80px 20px;
+    background-color: #01184d;
+    text-align: center;
+}
+
+.footer-sec1 div a {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.footer-sec1 p {
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 15px 0;
+}
+
+.footer-sec1 .icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-sec1 .icons i {
+    padding: 15px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.footer-sec2  {
+    padding: 10px 80px;
+    background-color: #edf2fb;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
     
     }
